@@ -1,0 +1,16 @@
+{
+    "payee": "Vendor Express, Inc.",
+    "paymentAmount": 350.00,
+    "invoices": [
+      {
+        "invoiceNumber": "x-1258287",
+        "invoiceAmount": 100.00,
+        "invoiceDate": "2019-02-06"
+      },
+      {
+        "invoiceNumber": "x-125990",
+        "invoiceAmount": 250.00,
+        "invoiceDate": "2019-02-05"
+      }
+    ]
+  }
