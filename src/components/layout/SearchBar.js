@@ -15,7 +15,7 @@ const SearchBar = () => {
       <div className='nav-wrapper'>
         <form>
           <div className='input-field'>
-            <input id='search' type='search' placeholder='Search Logs...' 
+            <input id='search' type='search' placeholder='Search payments...' 
             onChange={onChange} />
             <label className='label-icon' htmlFor='search'>
               <i className='material-icons'>search</i>
