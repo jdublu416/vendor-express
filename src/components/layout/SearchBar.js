@@ -6,7 +6,7 @@ const SearchBar = () => {
   // const text = useRef('');
 
   const onChange = e => {
-    // searchLogs(text.current.value);
+    // searchPayments(text.current.value);
     console.log('I am working....'+ e)
   }
 
