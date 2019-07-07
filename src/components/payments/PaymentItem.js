@@ -1,14 +1,23 @@
-import React from 'react'
+import React from 'react';
+import InfoButton from '../buttons/InfoButton';
 
-const PaymentItem = ({payment}) => {
+const PaymentItem = ({ payment }) => {
+  const { Name, Attention, SubmissionDate } = payment.Payee;
+  return (
+    <li className='collection-item'>
+      <div className='left-align'>
+        <p>{Name}</p>
+        <p>
+          {' '}
+          Attention: {Attention} <br />
+          Submitted: {SubmissionDate}
+        </p>
+      </div>
+      <div className='right-align'>
+        <InfoButton />
+      </div>
+    </li>
+  );
+};
 
-    
-    return (
-       <li className="collection-item center-align">
-           <h3>{payment.Payee.Name}</h3>
-
-       </li>
-    )
-}
-
-export default PaymentItem
+export default PaymentItem;
